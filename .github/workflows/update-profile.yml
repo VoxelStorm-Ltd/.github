@@ -1,0 +1,64 @@
+name: Update Profile README
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'profile/README.md'
+      - 'scripts/update-profile.sh'
+      - '.github/workflows/update-profile.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+  pages: read
+
+concurrency:
+  group: update-profile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-profile:
+    name: Regenerate projects dashboard
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Run update script
+        env:
+          # Provide a dedicated fine-grained read-only token (or GitHub App
+          # installation token) limited to the specific repositories needed
+          # by this workflow to list repositories and query their metadata.
+          # Required fine-grained PAT permissions:
+          #   - Repository metadata (read)  – for listing repos via REST
+          #   - Issues (read)               – for issue counts via GraphQL
+          #   - Pull requests (read)        – for PR counts via GraphQL
+          # Do not use a broad classic PAT with `repo` scope.
+          # Fall back to GITHUB_TOKEN for public-only access.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_METADATA_READ_TOKEN || secrets.GITHUB_TOKEN }}
+          # Include private repositories when the dedicated metadata token is
+          # configured. Configuring PROFILE_METADATA_READ_TOKEN is the explicit
+          # opt-in: the token must be scoped to the org's private repos and the
+          # GitHub API will only return repos the token can access anyway.
+          INCLUDE_PRIVATE: ${{ secrets.PROFILE_METADATA_READ_TOKEN != '' && '1' || '0' }}
+        run: bash scripts/update-profile.sh
+
+      - name: Commit updated README
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update profile README [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
