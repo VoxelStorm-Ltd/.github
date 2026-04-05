@@ -104,6 +104,24 @@ get_workflows() {
     | jq -r '.workflows[] | select((.path // "") | test("^\\.github/workflows/[^/]+\\.ya?ml$")) | @base64' 2>/dev/null || true
 }
 
+# Return codecov badge markdown if codecov is configured for the repo, or empty string.
+# Detects coverage by fetching the badge SVG; if it reports "unknown", coverage is not set up.
+get_codecov_badge() {
+  local repo="$1"
+  local encoded_branch="$2"
+  local badge_url="https://codecov.io/gh/${ORG}/${repo}/branch/${encoded_branch}/graph/badge.svg"
+  local svg
+  if ! svg=$(curl -fsSL --max-time 10 "${badge_url}" 2>/dev/null); then
+    return 0
+  fi
+  # If codecov has no data for this repo the SVG will contain the text "unknown"
+  if [[ "${svg}" =~ [Uu][Nn][Kk][Nn][Oo][Ww][Nn] ]]; then
+    return 0
+  fi
+  local codecov_url="https://codecov.io/gh/${ORG}/${repo}"
+  echo "[![codecov](${badge_url})](${codecov_url})"
+}
+
 # Return the html_url of the GitHub Pages site for a repo, or empty string
 get_pages_url() {
   local repo="$1"
@@ -241,6 +259,17 @@ build_table() {
     done < <(get_workflows "${name}")
 
     badges="${badges% }"  # trim trailing space
+
+    # ---- Code coverage badge (codecov.io) -----------------------------------
+    local codecov_badge
+    codecov_badge=$(get_codecov_badge "${name}" "${encoded_branch}")
+    if [ -n "${codecov_badge}" ]; then
+      if [ -n "${badges}" ]; then
+        badges+="<br>${codecov_badge}"
+      else
+        badges="${codecov_badge}"
+      fi
+    fi
 
     # ---- Issue and PR counts ------------------------------------------------
     local base_url="https://github.com/${ORG}/${name}"
