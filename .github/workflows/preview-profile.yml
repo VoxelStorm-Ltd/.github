@@ -15,7 +15,6 @@ permissions:
   actions: read
   pages: read
   issues: write
-  pull-requests: write
 
 concurrency:
   group: preview-profile-${{ github.ref }}
