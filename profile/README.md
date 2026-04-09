@@ -9,7 +9,7 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 <!-- PROJECTS-START -->
 | Project | Description | Build Status | Open Issues | Open PRs | Pages |
 | ------- | ----------- | :----------: | :----------: | :------: | :---: |
-| [**`advertcity`**](https://github.com/VoxelStorm-Ltd/advertcity) | *[Private]* |  |  | [1](https://github.com/VoxelStorm-Ltd/advertcity/pulls?q=is%3Apr+is%3Aopen) |  |
+| [**`advertcity`**](https://github.com/VoxelStorm-Ltd/advertcity) | *[Private]* |  |  |  |  |
 | [**`armchair`**](https://github.com/VoxelStorm-Ltd/armchair) | *[Private]* |  |  |  |  |
 | [**`auth-server`**](https://github.com/VoxelStorm-Ltd/auth-server) | *[Private]* |  |  |  |  |
 | [**`cast_if_required`**](https://github.com/VoxelStorm-Ltd/cast_if_required) | Cross-platform sized integer cast helper |  |  |  |  |
