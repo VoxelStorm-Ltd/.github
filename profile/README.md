@@ -23,7 +23,7 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 | [**`libvoxelstorm`**](https://github.com/VoxelStorm-Ltd/libvoxelstorm) | *[Private]* | [![Auto Update](https://github.com/VoxelStorm-Ltd/libvoxelstorm/actions/workflows/sync_back_from_repos.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/libvoxelstorm/actions/workflows/sync_back_from_repos.yml) |  |  |  |
 | [**`logstorm`**](https://github.com/VoxelStorm-Ltd/logstorm) | C++ logging library by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/logstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/logstorm/actions/workflows/tests.yml) |  |  |  |
 | [**`memorystorm`**](https://github.com/VoxelStorm-Ltd/memorystorm) | C++ memory use monitoring and reporting library by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/memorystorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/memorystorm/actions/workflows/tests.yml) |  |  |  |
-| [**`oculusstorm`**](https://github.com/VoxelStorm-Ltd/oculusstorm) | Legacy C++ Oculus Rift VR library by VoxelStorm |  | — | — |  |
+| [**`oculusstorm`**](https://github.com/VoxelStorm-Ltd/oculusstorm) | Legacy C++ Oculus Rift VR library by VoxelStorm |  |  |  |  |
 | [**`ovr_sdk_mingw_0.2.5c`**](https://github.com/VoxelStorm-Ltd/ovr_sdk_mingw_0.2.5c) | — |  |  |  |  |
 | [**`raymarchtest`**](https://github.com/VoxelStorm-Ltd/raymarchtest) | *[Private]* |  |  |  |  |
 | [**`roguelike-engine`**](https://github.com/VoxelStorm-Ltd/roguelike-engine) | *[Private]* |  |  |  |  |
