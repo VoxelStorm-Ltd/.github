@@ -43,5 +43,5 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 | [**`vectorstorm`**](https://github.com/VoxelStorm-Ltd/vectorstorm) | C++ Vector mathematics library for computer graphics - VoxelStorm version |  |  |  |  |
 | [**`voxelstorm`**](https://github.com/VoxelStorm-Ltd/voxelstorm) | *[Private]* |  |  |  |  |
 | [**`vrstorm`**](https://github.com/VoxelStorm-Ltd/vrstorm) | C++ VR library by VoxelStorm |  |  |  |  |
-| [**`web-content`**](https://github.com/VoxelStorm-Ltd/web-content) | *[Private]* |  |  |  |  |
+| [**`web-content`**](https://github.com/VoxelStorm-Ltd/web-content) | *[Private]* |  | — | — |  |
 <!-- PROJECTS-END -->
