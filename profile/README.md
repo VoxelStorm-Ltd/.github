@@ -13,7 +13,7 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 | [**`armchair`**](https://github.com/VoxelStorm-Ltd/armchair) | *[Private]* |  |  |  |  |
 | [**`auth-server`**](https://github.com/VoxelStorm-Ltd/auth-server) | *[Private]* |  |  |  |  |
 | [**`cast_if_required`**](https://github.com/VoxelStorm-Ltd/cast_if_required) | Cross-platform sized integer cast helper |  |  |  |  |
-| [**`flockstorm`**](https://github.com/VoxelStorm-Ltd/flockstorm) | C++ "Boids" high performance flocking library by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml) |  |  |  |
+| [**`flockstorm`**](https://github.com/VoxelStorm-Ltd/flockstorm) | C++ "Boids" high performance flocking library by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml)<br>[![codecov](https://codecov.io/gh/VoxelStorm-Ltd/flockstorm/branch/master/graph/badge.svg)](https://codecov.io/gh/VoxelStorm-Ltd/flockstorm) |  |  |  |
 | [**`fractyr`**](https://github.com/VoxelStorm-Ltd/fractyr) | *[Private]* |  |  |  |  |
 | [**`golfxtrm`**](https://github.com/VoxelStorm-Ltd/golfxtrm) | *[Private]* |  |  |  |  |
 | [**`guistorm`**](https://github.com/VoxelStorm-Ltd/guistorm) | C++ GUI library by VoxelStorm |  |  |  |  |
