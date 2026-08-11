@@ -9,15 +9,15 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 <!-- PROJECTS-START -->
 | Project | Description | Build Status | Open Issues | Open PRs | Pages |
 | ------- | ----------- | :----------: | :----------: | :------: | :---: |
-| [**`advertcity`**](https://github.com/VoxelStorm-Ltd/advertcity) | *[Private]* | [![Build Linux](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-linux.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-linux.yml) [![Build Mac](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-mac.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-mac.yml) [![Build Win](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-win.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-win.yml) | — | — |  |
+| [**`advertcity`**](https://github.com/VoxelStorm-Ltd/advertcity) | *[Private]* | [![Build Linux](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-linux.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-linux.yml) [![Build Mac](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-mac.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-mac.yml) [![Build Win](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-win.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/advertcity/actions/workflows/build-win.yml) |  |  |  |
 | [**`armchair`**](https://github.com/VoxelStorm-Ltd/armchair) | *[Private]* |  |  |  |  |
 | [**`auth-server`**](https://github.com/VoxelStorm-Ltd/auth-server) | *[Private]* |  |  |  |  |
 | [**`cast_if_required`**](https://github.com/VoxelStorm-Ltd/cast_if_required) | Cross-platform sized integer cast helper |  |  |  |  |
 | [**`flockstorm`**](https://github.com/VoxelStorm-Ltd/flockstorm) | C++ "Boids" high performance flocking library by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/flockstorm/actions/workflows/tests.yml)<br>[![codecov](https://codecov.io/gh/VoxelStorm-Ltd/flockstorm/branch/master/graph/badge.svg)](https://codecov.io/gh/VoxelStorm-Ltd/flockstorm) |  |  |  |
-| [**`fractyr`**](https://github.com/VoxelStorm-Ltd/fractyr) | *[Private]* |  | — | — |  |
+| [**`fractyr`**](https://github.com/VoxelStorm-Ltd/fractyr) | *[Private]* |  |  |  |  |
 | [**`golfxtrm`**](https://github.com/VoxelStorm-Ltd/golfxtrm) | *[Private]* |  |  |  |  |
-| [**`guistorm`**](https://github.com/VoxelStorm-Ltd/guistorm) | C++ GUI library by VoxelStorm |  | — | — |  |
-| [**`inputstorm`**](https://github.com/VoxelStorm-Ltd/inputstorm) | C++ callback-based unified input handling library working with GLFW, by VoxelStorm |  | — | — |  |
+| [**`guistorm`**](https://github.com/VoxelStorm-Ltd/guistorm) | C++ GUI library by VoxelStorm |  |  |  |  |
+| [**`inputstorm`**](https://github.com/VoxelStorm-Ltd/inputstorm) | C++ callback-based unified input handling library working with GLFW, by VoxelStorm |  |  |  |  |
 | [**`integrationstorm`**](https://github.com/VoxelStorm-Ltd/integrationstorm) | IntegrationStorm - small C++ library for iterative integration, by VoxelStorm & Armchair Software  |  |  |  |  |
 | [**`lander`**](https://github.com/VoxelStorm-Ltd/lander) | *[Private]* |  |  |  |  |
 | [**`libvoxelstorm`**](https://github.com/VoxelStorm-Ltd/libvoxelstorm) | *[Private]* | [![Auto Update](https://github.com/VoxelStorm-Ltd/libvoxelstorm/actions/workflows/sync_back_from_repos.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/libvoxelstorm/actions/workflows/sync_back_from_repos.yml) |  |  |  |
@@ -27,19 +27,19 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 | [**`ovr_sdk_mingw_0.2.5c`**](https://github.com/VoxelStorm-Ltd/ovr_sdk_mingw_0.2.5c) | — |  |  |  |  |
 | [**`raymarchtest`**](https://github.com/VoxelStorm-Ltd/raymarchtest) | *[Private]* |  |  |  |  |
 | [**`roguelike-engine`**](https://github.com/VoxelStorm-Ltd/roguelike-engine) | *[Private]* |  |  |  |  |
-| [**`scripts`**](https://github.com/VoxelStorm-Ltd/scripts) | *[Private]* |  | — | — |  |
+| [**`scripts`**](https://github.com/VoxelStorm-Ltd/scripts) | *[Private]* |  |  |  |  |
 | [**`serialstorm`**](https://github.com/VoxelStorm-Ltd/serialstorm) | VoxelStorm's serialisation library | [![Tests](https://github.com/VoxelStorm-Ltd/serialstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/serialstorm/actions/workflows/tests.yml)<br>[![codecov](https://codecov.io/gh/VoxelStorm-Ltd/serialstorm/branch/master/graph/badge.svg)](https://codecov.io/gh/VoxelStorm-Ltd/serialstorm) |  |  |  |
-| [**`shadertest`**](https://github.com/VoxelStorm-Ltd/shadertest) | *[Private]* |  | — | — |  |
+| [**`shadertest`**](https://github.com/VoxelStorm-Ltd/shadertest) | *[Private]* |  |  |  |  |
 | [**`shadervalidator`**](https://github.com/VoxelStorm-Ltd/shadervalidator) | *[Private]* |  |  |  |  |
 | [**`sphereface`**](https://github.com/VoxelStorm-Ltd/sphereface) | *[Private]* | [![Build Linux](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-linux.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-linux.yml) [![Build Mac](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-mac.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-mac.yml) [![Build Win](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-win.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/sphereface/actions/workflows/build-win.yml) |  |  |  |
 | [**`starshipgen`**](https://github.com/VoxelStorm-Ltd/starshipgen) | *[Private]* |  |  |  |  |
 | [**`steam-build-scripts`**](https://github.com/VoxelStorm-Ltd/steam-build-scripts) | *[Private]* |  |  |  |  |
 | [**`steamstorm`**](https://github.com/VoxelStorm-Ltd/steamstorm) | C++ Steam interface library by VoxelStorm |  |  |  |  |
-| [**`taxi`**](https://github.com/VoxelStorm-Ltd/taxi) | *[Private]* |  | — | — |  |
+| [**`taxi`**](https://github.com/VoxelStorm-Ltd/taxi) | *[Private]* |  |  |  |  |
 | [**`timestorm`**](https://github.com/VoxelStorm-Ltd/timestorm) | C++ RAII timer library for one-line function and scope time-taken reporting | [![Tests](https://github.com/VoxelStorm-Ltd/timestorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/timestorm/actions/workflows/tests.yml) |  |  |  |
 | [**`updatestorm`**](https://github.com/VoxelStorm-Ltd/updatestorm) | *[Private]* |  |  |  |  |
 | [**`usbwrite`**](https://github.com/VoxelStorm-Ltd/usbwrite) | Utility scripts for batch writing USB drives with templated content |  |  |  |  |
-| [**`vectorfontstorm`**](https://github.com/VoxelStorm-Ltd/vectorfontstorm) | VectorFontStorm - C++ vector font rendering library for OpenGL 3D text rendering, by VoxelStorm | [![codecov](https://codecov.io/gh/VoxelStorm-Ltd/vectorfontstorm/branch/master/graph/badge.svg)](https://codecov.io/gh/VoxelStorm-Ltd/vectorfontstorm) |  |  |  |
+| [**`vectorfontstorm`**](https://github.com/VoxelStorm-Ltd/vectorfontstorm) | VectorFontStorm - C++ vector font rendering library for OpenGL 3D text rendering, by VoxelStorm | [![Tests](https://github.com/VoxelStorm-Ltd/vectorfontstorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/vectorfontstorm/actions/workflows/tests.yml)<br>[![codecov](https://codecov.io/gh/VoxelStorm-Ltd/vectorfontstorm/branch/master/graph/badge.svg)](https://codecov.io/gh/VoxelStorm-Ltd/vectorfontstorm) |  |  |  |
 | [**`vectorstorm`**](https://github.com/VoxelStorm-Ltd/vectorstorm) | C++ Vector mathematics library for computer graphics - VoxelStorm version |  |  |  |  |
 | [**`voxelstorm`**](https://github.com/VoxelStorm-Ltd/voxelstorm) | *[Private]* |  |  |  |  |
 | [**`vrstorm`**](https://github.com/VoxelStorm-Ltd/vrstorm) | C++ VR library by VoxelStorm |  |  |  |  |
