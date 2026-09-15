@@ -37,7 +37,7 @@ The plan is to gradually release all VoxelStorm code as open source, so long-ter
 | [**`starshipgen`**](https://github.com/VoxelStorm-Ltd/starshipgen) | Text-based sci-fi starship and culture flavour text generator | [![Build](https://github.com/VoxelStorm-Ltd/starshipgen/actions/workflows/cmake-single-platform.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/starshipgen/actions/workflows/cmake-single-platform.yml) |  |  |  |
 | [**`steam-build-scripts`**](https://github.com/VoxelStorm-Ltd/steam-build-scripts) | *[Private]* |  |  |  |  |
 | [**`steamstorm`**](https://github.com/VoxelStorm-Ltd/steamstorm) | C++ Steam interface library by VoxelStorm |  |  |  |  |
-| [**`taxi`**](https://github.com/VoxelStorm-Ltd/taxi) | *[Private]* |  |  |  |  |
+| [**`taxi`**](https://github.com/VoxelStorm-Ltd/taxi) | *[Private]* | [![Build Linux](https://github.com/VoxelStorm-Ltd/taxi/actions/workflows/build-linux.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/taxi/actions/workflows/build-linux.yml) |  |  |  |
 | [**`timestorm`**](https://github.com/VoxelStorm-Ltd/timestorm) | C++ RAII timer library for one-line function and scope time-taken reporting | [![Tests](https://github.com/VoxelStorm-Ltd/timestorm/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/VoxelStorm-Ltd/timestorm/actions/workflows/tests.yml) |  |  |  |
 | [**`updatestorm`**](https://github.com/VoxelStorm-Ltd/updatestorm) | *[Private]* |  |  |  |  |
 | [**`usbwrite`**](https://github.com/VoxelStorm-Ltd/usbwrite) | Utility scripts for batch writing USB drives with templated content |  |  |  |  |
